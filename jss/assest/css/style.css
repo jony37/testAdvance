@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body {
+    background-color: black;
+} */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 16px;
+    margin-left: 24px;
+}
+
+.div {
+    background-color: red !important;
+    width: 130px;
+    height: 130px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin: 0px 10px;
+}
+
+.allbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+.flex-div {
+    display: flex;
+    align-items: center;
+}
+.inName, .inPas {
+    padding: 7px;   
+}
+.containerr {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
